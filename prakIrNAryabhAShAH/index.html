@@ -132,7 +132,7 @@
 
 
     
-<header class="p-1 bg-yellow">
+<header class="p-1 bg-yellow noPrint">
     <nav role="navigation">
       <div id="div_top_bar" class="row">
         <div class="col-md-3 justify-content-start">
@@ -142,7 +142,7 @@
         </div>
         <div id="div_top_bar_right" class="col-md-auto d-flex justify-content-center">
           ✍
-          <select name="transliterationDropdown" size="1" onchange="module_transliteration.updateTransliteration()">
+          <select id="transliterationDropdown" size="1" onchange="module_transliteration.updateTransliteration()">
             <optgroup label="🌍">
               <option value="iso">āISO</option>
               <option value="cyrillic">пу</option>
@@ -175,16 +175,18 @@
             </optgroup>
           </select>
           🗨:
-          <select name="commentStyleDropdown" size="1" onchange="module_main.default.updateCommentStyleFromDropdown()">
+          <select id="commentStyleDropdown" size="1" onchange="module_main.default.updateCommentStyleFromDropdown()">
             <option value="on">✔</option>
             <option value="hidden">✗</option>
           </select>
-          <div><a  name="speakerButton" class="btn btn-secondary" onclick="module_main.default.handleSpeakToggle()">🎧️</a></div>
+          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
+          <div><a id="printButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
+          <div><a id="speakerButton" class="btn btn-secondary" onclick="module_main.default.handleSpeakToggle()">🎧️</a></div>
         </div>
         <div class="row col  d-flex justify-content-center">
           <a href="/full_search"  class="btn btn-secondary">🥽🔦</a>
-          <div><a  name="previousPage" href="" class="btn btn-secondary">###<i class="fas fa-caret-left"></i></a></div>
-          <div ><a name="nextPage" href="" class="btn btn-secondary"><i class="fas fa-caret-right"></i> ### </a></div>
+          <div><a id="previousPage" href="" class="btn btn-secondary">###<i class="fas fa-caret-left"></i></a></div>
+          <div ><a id="nextPage" href="" class="btn btn-secondary"><i class="fas fa-caret-right"></i> ### </a></div>
         </div>
         <ul id="top-bar-right-custom" class="list-group list-group-horizontal">
         </ul>
@@ -195,7 +197,7 @@
     
     <div class="row" name="contentRow">
       
-      <aside class="col-md-3 card border " id="sidebar">
+      <aside class="col-md-3 card border noPrint " id="sidebar">
           <div id="fastSearch">
               <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्"  tabindex="0">
           </div>
@@ -213,12 +215,12 @@
 <header class='border d-flex justify-content-between'>
     <h1 id="&#43;प्रकीर्णार्य-भाषाः">&#43;प्रकीर्णार्य-भाषाः</h1>
     
-    <a id="editLink" class="btn btn-primary"  href="https://github.com/vishvAsa/bhAShAntaram/edit/content/prakIrNAryabhAShAH/_index.md"><i class="fas fa-edit"></i></a>
+    <a id="editLink" class="btn btn-primary noPrint"  href="https://github.com/vishvAsa/bhAShAntaram/edit/content/prakIrNAryabhAShAH/_index.md"><i class="fas fa-edit"></i></a>
     
 </header>
 <main>
     <article>
-  <aside id="toc_card" class="card border ">
+  <aside id="toc_card" class="card border noPrint ">
     <div id="toc_header" class="card-title border d-flex justify-content-between">
         <a data-toggle="collapse" href="#toc_body" role="button" aria-expanded="true" aria-controls="toc_body">
           What's in this page? <i class="fas fa-caret-down"></i> </a>
@@ -247,7 +249,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/">2006-07-16  - 2006-07-16  | &#43;प्रकीर्णार्य-भाषाः </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -275,7 +277,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/meta/">2006-07-16  - 2006-07-16  | &#43;अधिप्राकृतम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -300,7 +302,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/gadya/">&#43;गद्य </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -325,7 +327,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/images/">&#43;चित्राणि </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -350,7 +352,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/">&#43;पद्य </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -375,7 +377,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/vyAkaraNa/">&#43;व्याकरण </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -408,7 +410,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/meta/">2006-07-16  - 2006-07-16  | &#43;अधिप्राकृतम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -436,7 +438,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/meta/MT_lekhAH/">2006-07-16  - 2006-07-16  | &#43;मानसतरङ्गिणीकृल्-लेखाः </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -461,7 +463,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/meta/history/">History </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -484,7 +486,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/meta/UP-hindI/">UP hindI urdu </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -507,7 +509,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/meta/uchchAraNa-parivartanam/">उच्चारण-परिवर्तनम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -540,7 +542,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/meta/MT_lekhAH/">2006-07-16  - 2006-07-16  | &#43;मानसतरङ्गिणीकृल्-लेखाः </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -568,7 +570,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/meta/MT_lekhAH/2006-07-16_maharatti-and-kannada-and-more-musing-on-indo-aryan/">2006-07-16  - 2006-07-16  | Maharatti and Kannada and more musing on Indo-Aryan </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -599,7 +601,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/meta/MT_lekhAH/2006-07-16_the-substrate-in-old-indo-aryan/">2006-07-16  - 2006-07-16  | The substrate in Old Indo-Aryan </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -650,7 +652,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/gadya/">&#43;गद्य </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -678,7 +680,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/gadya/bechan-sharma_ugra/">&#43;बेचन-शर्म उग्र </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -711,7 +713,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/gadya/bechan-sharma_ugra/">&#43;बेचन-शर्म उग्र </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -739,7 +741,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/gadya/bechan-sharma_ugra/khudA-rAm/">खुदाराम </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -784,7 +786,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/images/">&#43;चित्राणि </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -826,7 +828,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/">&#43;पद्य </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -854,7 +856,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rashmirathI/">&#43;रश्मिरथी </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -879,7 +881,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rAmacharitamAnasa/">&#43;रामचरितमानस </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -904,7 +906,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/raghupati_rAghava/">रघुपति राघव </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -937,7 +939,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rashmirathI/">&#43;रश्मिरथी </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -965,7 +967,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rashmirathI/1/">१ </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -990,7 +992,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rashmirathI/2/">२ </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1015,7 +1017,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rashmirathI/3/">३ </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1054,7 +1056,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rAmacharitamAnasa/">&#43;रामचरितमानस </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1082,7 +1084,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rAmacharitamAnasa/images/">&#43;चित्राणि </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1107,7 +1109,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rAmacharitamAnasa/01_bAlakANDa_temp/">०१ बालकाण्ड (विश्वासप्रस्तुतिः) </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1132,7 +1134,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rAmacharitamAnasa/01_bAlakANDa-shiShTam/">०१ बालकाण्ड-शिष्टम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1157,7 +1159,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rAmacharitamAnasa/01_bAlakANDa/">१ बालकाण्डम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1182,7 +1184,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rAmacharitamAnasa/02_ayodhyAkANDa/">२ अयोध्याकाण्डम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1207,7 +1209,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rAmacharitamAnasa/03_araNyakANDa/">३ अरण्यकाण्डम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1232,7 +1234,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rAmacharitamAnasa/04_kiShkindhAkANDa/">४ किष्किन्धाकाण्डम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1257,7 +1259,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rAmacharitamAnasa/05_sundarakANDa/">५ सुन्दरकाण्डम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1282,7 +1284,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rAmacharitamAnasa/06_lankAkANDa/">६ लङ्काकाण्डम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1307,7 +1309,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rAmacharitamAnasa/07_uttarakANDa/">७ उत्तरकाण्डम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1340,7 +1342,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/padya/rAmacharitamAnasa/images/">&#43;चित्राणि </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1394,7 +1396,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/vyAkaraNa/">&#43;व्याकरण </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1422,7 +1424,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/vyAkaraNa/avadhi/">&#43;पञ्जाबी व्याकरण </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1447,7 +1449,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/vyAkaraNa/panjAbI/">&#43;पञ्जाबी व्याकरण </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1480,7 +1482,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/vyAkaraNa/avadhi/">&#43;पञ्जाबी व्याकरण </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1508,7 +1510,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/vyAkaraNa/avadhi/kriyA-padam/">क्रियापदम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1533,7 +1535,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/vyAkaraNa/avadhi/nAma-padam/">नामपदम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1558,7 +1560,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/vyAkaraNa/avadhi/prAtipadikam/">प्रातिपदिकम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1597,7 +1599,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/vyAkaraNa/panjAbI/">&#43;पञ्जाबी व्याकरण </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1625,7 +1627,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/vyAkaraNa/panjAbI/kriyA-padam/">क्रियापदम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1650,7 +1652,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/vyAkaraNa/panjAbI/nAma-padam/">नामपदम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1675,7 +1677,7 @@
 
 
 
-<aside class="card border" id="section-tree-item-">
+<aside class="card border noPrint" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://vishvAsa.github.io/bhAShAntaram/prakIrNAryabhAShAH/vyAkaraNa/panjAbI/prAtipadikam/">प्रातिपदिकम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
@@ -1729,7 +1731,7 @@
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
       
-      <a href="https://github.com/vishvAsa/bhAShAntaram/actions/workflows/build.yml"><img src="https://github.com/vishvAsa/bhAShAntaram/actions/workflows/build.yml/badge.svg"> Built </a> on 2022 Feb 3 03:20:24 UTC. (<a href="http://google.com/search?q=03%3a20%3a24%20UTC to IST">IST</a>)
+      <a href="https://github.com/vishvAsa/bhAShAntaram/actions/workflows/build.yml"><img src="https://github.com/vishvAsa/bhAShAntaram/actions/workflows/build.yml/badge.svg"> Built </a> on 2022 Feb 10 00:24:35 UTC. (<a href="http://google.com/search?q=00%3a24%3a35%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>
