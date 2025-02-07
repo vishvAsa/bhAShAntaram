@@ -499,9 +499,9 @@ Who clasps the feet of Virtue's sea.         8
 <details><summary>श्री-राम-देशिकः - ९</summary>
 
 गुणाष्टक-युतेशस्य  
-पदे येन न वन्दिते ।  
-दृष्टया विरहितं चक्षुर्  
-इरिव तस्य शिरो वृथा ॥ ९॥
+पदे येन **न वन्दिते** ।  
+दृष्ट्या **विरहितं** चक्षुर्  
+इव तस्य शिरो वृथा ॥ ९॥
 </details>
 
 <details><summary>NVK Ashraf choice (en) - ९</summary>
