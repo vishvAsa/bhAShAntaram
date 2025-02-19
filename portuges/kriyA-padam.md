@@ -1,6 +1,9 @@
 +++
 title = "kriyA-padam"
 +++
+
+With "a gente", use singular third person forms.
+
 ## Past (Pretérito Perfeito)
 - eu fui, houve
 - tu foste, houveste
