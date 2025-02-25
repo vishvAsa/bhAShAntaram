@@ -3,8 +3,14 @@ title = "nAma padam"
 +++
 
 ## Pronoun
-- Ese, Esa = that
-- esto, Esta = this
+- 1
+  - Ese, Esa = that
+  - esto, Esta = this
+- 2
+  - me, te, se
+  - nos, os, se
+- 6
+  - su
 
 ### Esta, Ella
 "Estas playas" is correct, but "Ellas playas" is wrong; though playas is feminine.
