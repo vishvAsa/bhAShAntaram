@@ -71,7 +71,7 @@ Affirmative:
 
 ### Imperfect सम्भावना
 
-- … yo fuera/fuese
+- … yo fuera/fuese (Same as usted!)
 - … tú fueras/fueses
 - … él/ella/usted fuera/fuese
 
