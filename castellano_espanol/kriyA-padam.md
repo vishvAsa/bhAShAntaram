@@ -20,6 +20,14 @@ title = "क्रिया-पदम्"
 - vosotros sois, habeis
 - ellos/ellas/ustedes son, han
 
+
+### Special nosotros forms
+Some verbs use the regular endings, but have a vowel change (except in the nosotros form). For example, o changes to ue, or e changes to ie. 
+
+- ( poder ) yo puedo, tú puedes, él / ella / usted puede, nosotros / nosotras podemos, ellos / ellas / ustedes pueden 
+  
+- ( perder ) yo pierdo, tú pierdes, él / ella / usted pierde, nosotros / nosotras perdemos, ellos / ellas / ustedes pierden
+
 ## Imperfect
 (am being etc..)
 
