@@ -1,9 +1,8 @@
 +++
 title = "07 కన్నబిడ్డలు"
-
 +++
-[[కన్నబిడ్డలు	Source: [AB](https://andhrabharati.com/strI_bAla/bAlabhASha/kannabiDDalu.html)]]
+[[कन्नबिड्डलु Source: [AB](https://andhrabharati.com/strI_bAla/bAlabhASha/kannabiDDalu.html)]]
 
-  
-వీథిలో ఉయ్యాల అమ్మవచ్చింది,  
-కొడుకులను గన్నతల్లి కొనవె ఉయ్యాల.  
+    
+वीथिलो उय्याल अम्मवच्चिन्दि,  
+कॊडुकुलनु गन्नतल्लि कॊनवॆ उय्याल.

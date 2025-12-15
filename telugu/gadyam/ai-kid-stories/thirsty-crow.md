@@ -1,99 +1,98 @@
 +++
 title = "Thirsty crow"
 +++
-
 Of course. This is an excellent refinement for precise pronunciation. Here is the same story, "The Thirsty Crow," with the updated to the **ISO 15919 standard**.
 
 This standard uses diacritics (like macrons for long vowels and dots below for retroflex consonants) to represent each Telugu character uniquely. This will be very helpful for the teacher.
 
 ---
 
-### **దాహంగొన్న కాకి (The Thirsty Crow)**
+### **दाहङ्गॊन्न काकि (The Thirsty Crow)**
 
 **A Note for the Teacher:** The below uses the international standard ISO 15919. Key points include:
-*   Long vowels are marked with a macron (e.g., ā, ī, ē, ō, ū).
-*   Retroflex consonants (ట, డ, ణ, ళ) are marked with a dot below (e.g., ṭ, ḍ, ṇ, ḷ).
-*   `ca` is used for 'చ' and `śa` is for 'శ'.
-*   The Anusvara (సున్న) is transliterated based on the consonant that follows it (e.g., `n` before `d`, `ṇ` before `ḍ`, `ṁ` at the end of a word).
+* Long vowels are marked with a macron (e.g., ā, ī, ē, ō, ū).
+* Retroflex consonants (ट, ड, ण, ळ) are marked with a dot below (e.g., ṭ, ḍ, ṇ, ḷ).
+* `ca` is used for 'च' and `śa` is for 'श'.
+* The Anusvara (सुन्न) is transliterated based on the consonant that follows it (e.g., `n` before `d`, `ṇ` before `ḍ`, `ṁ` at the end of a word).
 
 ---
 
-**తెలుగు:** ఒకానొకప్పుడు ఒక కాకి ఉండేది.
+**तॆलुगु-** ऒकानॊकप्पुडु ऒक काकि उण्डेदि.
 **ISO:** Okānokappuḍu oka kāki uṇḍēdi.
 **English:** Once, there was a crow.
 
-**తెలుగు:** దానికి చాలా దాహంగా ఉంది.
+**तॆलुगु-** दानिकि चाला दाहङ्गा उन्दि.
 **ISO:** Dāniki cālā dāhaṅgā undi.
 **English:** It was very thirsty.
 
-**తెలుగు:** అది నీళ్ళ కోసం వెతికింది.
+**तॆलुगु-** अदि नीळ्ळ कोसं वॆतिकिन्दि.
 **ISO:** Adi nīḷḷa kōsaṁ vetikindi.
 **English:** It looked for water.
 
-**తెలుగు:** అటూ ఇటూ ఎగిరింది.
+**तॆलुगु-** अटू इटू ऎगिरिन्दि.
 **ISO:** Aṭū iṭū egirindi.
 **English:** It flew here and there.
 
-**తెలుగు:** చివరికి, ఒక కుండను చూసింది.
+**तॆलुगु-** चिवरिकि, ऒक कुण्डनु चूसिन्दि.
 **ISO:** Civariki, oka kuṇḍanu cūsindi.
 **English:** Finally, it saw a pot.
 
-**తెలుగు:** ఆ కుండలో కొన్ని నీళ్ళు ఉన్నాయి.
+**तॆलुगु-** आ कुण्डलो कॊन्नि नीळ्ळु उन्नायि.
 **ISO:** Ā kuṇḍalō konni nīḷḷu unnāyi.
 **English:** There was some water in the pot.
 
-**తెలుగు:** కానీ నీళ్ళు చాలా కింద ఉన్నాయి.
+**तॆलुगु-** कानी नीळ्ळु चाला किन्द उन्नायि.
 **ISO:** Kānī nīḷḷu cālā kinda unnāyi.
 **English:** But the water was very low.
 
-**తెలుగు:** కాకి ఆ నీళ్ళను తాగలేకపోయింది.
+**तॆलुगु-** काकि आ नीळ्ळनु तागलेकपोयिन्दि.
 **ISO:** Kāki ā nīḷḷanu tāgalēkapōyindi.
 **English:** The crow could not drink the water.
 
-**తెలుగు:** కాకి కొంచెం సేపు ఆలోచించింది.
+**तॆलुगु-** काकि कॊञ्चॆं सेपु आलोचिञ्चिन्दि.
 **ISO:** Kāki koñceṁ sēpu ālōciñcindi.
 **English:** The crow thought for a little while.
 
-**తెలుగు:** దానికి ఒక ఉపాయం తట్టింది.
+**तॆलुगु-** दानिकि ऒक उपायं तट्टिन्दि.
 **ISO:** Dāniki oka upāyaṁ taṭṭindi.
 **English:** It got an idea.
 
-**తెలుగు:** దానికి దగ్గరలో కొన్ని చిన్న రాళ్ళు కనిపించాయి.
+**तॆलुगु-** दानिकि दग्गरलो कॊन्नि चिन्न राळ्ळु कनिपिञ्चायि.
 **ISO:** Dāniki daggaralō konni cinna rāḷḷu kanipiñcāyi.
 **English:** It saw some small stones nearby.
 
-**తెలుగు:** అది ఒక రాయిని తీసుకుంది.
+**तॆलुगु-** अदि ऒक रायिनि तीसुकुन्दि.
 **ISO:** Adi oka rāyini tīsukundi.
 **English:** It picked up a stone.
 
-**తెలుగు:** ఆ రాయిని కుండలో వేసింది.
+**तॆलुगु-** आ रायिनि कुण्डलो वेसिन्दि.
 **ISO:** Ā rāyini kuṇḍalō vēsindi.
 **English:** It dropped the stone into the pot.
 
-**తెలుగు:** అలా చాలా రాళ్ళను కుండలో వేసింది.
+**तॆलुगु-** अला चाला राळ्ळनु कुण्डलो वेसिन्दि.
 **ISO:** Alā cālā rāḷḷanu kuṇḍalō vēsindi.
 **English:** Like that, it dropped many stones into the pot.
 
-**తెలుగు:** మెల్లగా నీళ్ళు పైకి వచ్చాయి.
+**तॆलुगु-** मॆल्लगा नीळ्ळु पैकि वच्चायि.
 **ISO:** Mellagā nīḷḷu paiki vaccāyi.
 **English:** Slowly, the water came up.
 
-**తెలుగు:** కాకికి చాలా సంతోషం వేసింది.
+**तॆलुगु-** काकिकि चाला सन्तोषं वेसिन्दि.
 **ISO:** Kākiki cālā santōṣaṁ vēsindi.
 **English:** The crow felt very happy.
 
-**తెలుగు:** అది కడుపు నిండా నీళ్ళు తాగింది.
+**तॆलुगु-** अदि कडुपु निण्डा नीळ्ळु तागिन्दि.
 **ISO:** Adi kaḍupu niṇḍā nīḷḷu tāgindi.
 **English:** It drank the water to its stomach's content.
 
-**తెలుగు:** తరువాత, సంతోషంగా ఎగిరిపోయింది.
+**तॆलुगु-** तरुवात, सन्तोषङ्गा ऎगिरिपोयिन्दि.
 **ISO:** Taruvāta, santōṣaṅgā egiripōyindi.
 **English:** Then, it flew away happily.
 
 ---
 
-### **నీతి (Moral of the story):**
+### **नीति (Moral of the story):**
 
-**తెలుగు:** మనసుంటే మార్గం ఉంటుంది.
+**तॆलुगु-** मनसुण्टे मार्गं उण्टुन्दि.
 **ISO:** Manasuṇṭē mārgaṁ uṇṭundi.
 **English:** Where there is a will, there is a way.
