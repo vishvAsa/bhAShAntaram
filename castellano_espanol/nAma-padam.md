@@ -19,3 +19,10 @@ title = "nAma padam"
 "Ser" is used to describe permanent or inherent characteristics, identities, and origin.
 
 "Estar" is used for temporary states, locations, and conditions.
+
+## Connectives
+You need to use 'a' if you're mentioning people or animals after the verb
+
+Las chicas visitan Boston.  
+Las chicas visitan a sus amigas.
+
